@@ -1,0 +1,70 @@
+{
+  "purpose": "computational_readiness_only",
+  "strategy_backtest": false,
+  "point_in_time_validated": false,
+  "model_parameters_status": "proposal",
+  "train_only_fit": true,
+  "tuning_on_validation_or_test": false,
+  "fixed_baseline": "zero change in next observation's yield",
+  "scores": [
+    {
+      "split": "train",
+      "model": "AR1",
+      "n": 1750,
+      "start": "2015-01-06",
+      "end": "2021-12-31",
+      "rmse_bp": 4.485494014793001,
+      "mae_bp": 3.3842784884592123
+    },
+    {
+      "split": "train",
+      "model": "zero_change_baseline",
+      "n": 1750,
+      "start": "2015-01-06",
+      "end": "2021-12-31",
+      "rmse_bp": 4.487442797088656,
+      "mae_bp": 3.382857142857143
+    },
+    {
+      "split": "validation",
+      "model": "AR1",
+      "n": 499,
+      "start": "2022-01-03",
+      "end": "2023-12-29",
+      "rmse_bp": 7.64934937714103,
+      "mae_bp": 6.1826534339803505
+    },
+    {
+      "split": "validation",
+      "model": "zero_change_baseline",
+      "n": 499,
+      "start": "2022-01-03",
+      "end": "2023-12-29",
+      "rmse_bp": 7.646236319897486,
+      "mae_bp": 6.176352705410822
+    },
+    {
+      "split": "test",
+      "model": "AR1",
+      "n": 701,
+      "start": "2024-01-02",
+      "end": "2026-10-21",
+      "rmse_bp": 5.102370784880373,
+      "mae_bp": 4.027585695505891
+    },
+    {
+      "split": "test",
+      "model": "zero_change_baseline",
+      "n": 701,
+      "start": "2024-01-02",
+      "end": "2026-10-21",
+      "rmse_bp": 5.095801186168731,
+      "mae_bp": 4.012838801711841
+    }
+  ],
+  "limitations": [
+    "Latest revised snapshots, not historical release vintages",
+    "No equity, valuation, trading return, or causal claim",
+    "No policy intent identification"
+  ]
+}

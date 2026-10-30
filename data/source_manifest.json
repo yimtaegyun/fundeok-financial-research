@@ -1,0 +1,98 @@
+[
+  {
+    "file": "data/raw/bea_gdp_2026q3.html",
+    "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+    "resolved_url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+    "agency": "BEA",
+    "license_note": "US government release",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-10-29T13:40:09.398721+00:00",
+    "bytes": 51251,
+    "sha256": "b51d2f8f5bb721a5b37d17426a7512dcbfce1949aeb1e33b3ff28c823fcaaa30",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "file": "data/raw/bea_pce_202608_first.html",
+    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+    "resolved_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+    "agency": "BEA",
+    "license_note": "US government release; prior publication vintage",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-10-29T13:40:02.698134+00:00",
+    "bytes": 52287,
+    "sha256": "921b66e9910f292a0e84a52eaec1f5a79335e143dfbc2c4caa036ec921b34264",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "file": "data/raw/bea_pce_202609.html",
+    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+    "resolved_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+    "agency": "BEA",
+    "license_note": "US government release",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-10-29T13:40:02.977445+00:00",
+    "bytes": 51646,
+    "sha256": "ecebe8c3ca45d0e8b73d1036edee38838e930b6d96b89f7098235d76ea6b1f07",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "file": "data/raw/bea_pce_202609.pdf",
+    "url": "https://www.bea.gov/sites/default/files/2026-10/pi0926.pdf",
+    "resolved_url": "https://www.bea.gov/sites/default/files/2026-10/pi0926.pdf",
+    "agency": "BEA",
+    "license_note": "US government release",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-10-29T13:40:09.564109+00:00",
+    "bytes": 404608,
+    "sha256": "255d39ed609f481c3dd92a1c0f3ef895aaf90db908abe526c86ef13f5b1fa996",
+    "content_type": "application/pdf"
+  },
+  {
+    "file": "data/raw/fec_2026_dates.pdf",
+    "url": "https://www.fec.gov/documents/5910/2026pdates.pdf",
+    "resolved_url": "https://www.fec.gov/resources/cms-content/documents/2026pdates.pdf",
+    "agency": "FEC",
+    "license_note": "US government publication",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-10-29T13:40:18.984998+00:00",
+    "bytes": 226820,
+    "sha256": "9a5d4ec0ba2b69daf2f510ef79bca0ca381ab699255ac5adb971b9672d517251",
+    "content_type": "application/pdf"
+  },
+  {
+    "file": "data/raw/fomc_20261028.html",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "resolved_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "agency": "Federal Reserve",
+    "license_note": "US government release",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-10-29T13:40:08.067308+00:00",
+    "bytes": 81941,
+    "sha256": "ab7300908d1b039c2f7479182191f6b204101327e57f5704511bcf3fcda3fabd",
+    "content_type": "text/html"
+  },
+  {
+    "file": "data/raw/pce_monthly.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PCEPI,PCEPILFE,PCEC96,DSPIC96,PSAVERT&cosd=2014-01-01&coed=2026-09-01",
+    "resolved_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PCEPI,PCEPILFE,PCEC96,DSPIC96,PSAVERT&cosd=2014-01-01&coed=2026-09-01",
+    "agency": "BEA via FRED",
+    "license_note": "PCEPI/PCEPILFE/PCEC96/DSPIC96/PSAVERT: BEA via FRED; public-domain data, source attribution requested",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-10-29T13:40:02.802624+00:00",
+    "bytes": 28679,
+    "sha256": "09d2248e3e33c80d8142e73cdb24cc56e957b8ad4352af5b355923aa9bf248d2",
+    "content_type": "application/csv"
+  },
+  {
+    "file": "data/raw/treasury_daily.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2,DGS10,DFII10&cosd=2015-01-01&coed=2026-10-28",
+    "resolved_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2,DGS10,DFII10&cosd=2015-01-01&coed=2026-10-28",
+    "agency": "Board of Governors / US Treasury via FRED",
+    "license_note": "Public Domain: Citation Requested; cite Board of Governors and FRED. Breakeven spread is calculated locally from DGS10 minus DFII10.",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-10-29T14:06:51.173969+00:00",
+    "bytes": 339652,
+    "sha256": "e7301dc4f7f2d269d5824f5880a072426fb890263f10f574740d9519d56b7320",
+    "content_type": "application/csv"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "verified_at_utc": "2026-10-29T14:35:23.676749+00:00",
+  "archive_sha256_tested": "209d1b068f6677609755b6183aadd1918bf6101cb96f947b1827f0f91639d46a",
+  "environment_scope": "Same pinned installed environment; fresh directory extraction and execution, no fresh dependency install or GitHub-hosted execution",
+  "executed_command": "python run_research.py",
+  "exit_code": 0,
+  "data_checks_passed": 39,
+  "findings_exact_match": true,
+  "byte_identical_csv_and_figures": [
+    "outputs/common_yields.csv",
+    "outputs/daily_yields.csv",
+    "outputs/illustrative_discounting.csv",
+    "outputs/monthly_features.csv",
+    "outputs/monthly_levels.csv",
+    "outputs/release_vintages.csv",
+    "outputs/revision_comparison.csv",
+    "figures/01_pce_history.png",
+    "figures/02_core_momentum.png",
+    "figures/03_spending_saving.png",
+    "figures/04_yield_components.png",
+    "figures/05_discount_sensitivity.png"
+  ],
+  "jupyter_kernel_tested": false,
+  "external_publication": false,
+  "packaging_note": "The final delivery archive adds this verification record; the tested research code, frozen inputs and compared numerical/figure outputs remain unchanged."
+}

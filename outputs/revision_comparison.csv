@@ -1,0 +1,4 @@
+metric,period,unit,first_value,revised_value,revision_pp
+core_pce_mom,2026-08,percent,0.2,0.3,0.09999999999999998
+real_pce_mom,2026-08,percent,0.6,0.5,-0.09999999999999998
+saving_rate,2026-08,percent,4.1,4.0,-0.09999999999999964

@@ -1,0 +1,200 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "source_sha256:data/raw/bea_gdp_2026q3.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source_sha256:data/raw/bea_pce_202608_first.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source_sha256:data/raw/bea_pce_202609.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source_sha256:data/raw/bea_pce_202609.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source_sha256:data/raw/fec_2026_dates.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source_sha256:data/raw/fomc_20261028.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source_sha256:data/raw/pce_monthly.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source_sha256:data/raw/treasury_daily.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "monthly_unique_dates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "monthly_complete_calendar",
+      "passed": true,
+      "detail": "153 months"
+    },
+    {
+      "check": "monthly_positive_complete_levels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "daily_unique_dates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "daily_no_future_dates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_level_features_complete_2015_onward",
+      "passed": true,
+      "detail": "564 rows"
+    },
+    {
+      "check": "saving_rate_uses_percentage_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:PCEPI:mom_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:PCEPI:yoy_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:PCEPI:annualized_3m_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:PCEPI:annualized_6m_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:PCEPILFE:mom_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:PCEPILFE:yoy_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:PCEPILFE:annualized_3m_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:PCEPILFE:annualized_6m_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:PCEC96:mom_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:PCEC96:yoy_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:PCEC96:annualized_3m_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:PCEC96:annualized_6m_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:DSPIC96:mom_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:DSPIC96:yoy_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:DSPIC96:annualized_3m_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sql_python_agreement:DSPIC96:annualized_6m_pct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "official_release_rounding:PCEPI:mom_pct",
+      "passed": true,
+      "detail": "0.49084043 -> 0.5"
+    },
+    {
+      "check": "official_release_rounding:PCEPI:yoy_pct",
+      "passed": true,
+      "detail": "3.64887423 -> 3.6"
+    },
+    {
+      "check": "official_release_rounding:PCEPILFE:mom_pct",
+      "passed": true,
+      "detail": "0.31650177 -> 0.3"
+    },
+    {
+      "check": "official_release_rounding:PCEPILFE:yoy_pct",
+      "passed": true,
+      "detail": "3.12115960 -> 3.1"
+    },
+    {
+      "check": "official_release_rounding:DSPIC96:mom_pct",
+      "passed": true,
+      "detail": "-0.27204309 -> -0.3"
+    },
+    {
+      "check": "real_pce_positive_below_point_one",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "saving_rate_september_change_pp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "yield_official_snapshot_controls",
+      "passed": true,
+      "detail": "FRED DGS10/DFII10 source pages, manually verified 2026-10-29"
+    }
+  ]
+}

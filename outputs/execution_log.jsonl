@@ -1,0 +1,2 @@
+{"stage": "collect_data.py", "started_at_utc": "2026-10-30T05:47:53.770637+00:00", "finished_at_utc": "2026-10-30T05:47:53.827326+00:00", "exit_code": 0, "stdout": "Verified 8 frozen source files. No network refresh.\n", "stderr": ""}
+{"stage": "execute_notebook.py", "started_at_utc": "2026-10-30T05:47:53.827661+00:00", "finished_at_utc": "2026-10-30T05:47:57.155496+00:00", "exit_code": 0, "stdout": "Executed 6 code cells; saved analysis_notebook.ipynb\n", "stderr": ""}

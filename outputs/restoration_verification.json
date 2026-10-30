@@ -1,0 +1,32 @@
+{
+  "verified_at_kst": "2026-10-30T14:53:03.002543+09:00",
+  "mode": "offline reuse of frozen inputs",
+  "pce_checks_passed": true,
+  "pce_check_count": 39,
+  "notebook_code_cells_executed": 6,
+  "native_jupyter_kernel_verified": false,
+  "compared_artifact_count": 15,
+  "all_identical_to_recovered": true,
+  "files": {
+    "figures/05_discount_sensitivity.png": true,
+    "figures/03_spending_saving.png": true,
+    "figures/01_pce_history.png": true,
+    "figures/04_yield_components.png": true,
+    "figures/02_core_momentum.png": true,
+    "outputs/common_yields.csv": true,
+    "outputs/findings.json": true,
+    "outputs/monthly_levels.csv": true,
+    "outputs/illustrative_discounting.csv": true,
+    "outputs/monthly_features.csv": true,
+    "outputs/daily_yields.csv": true,
+    "outputs/release_vintages.csv": true,
+    "outputs/revision_comparison.csv": true,
+    "data/raw/pce_monthly.csv": true,
+    "data/raw/treasury_daily.csv": true
+  },
+  "remote_ci_verified": false,
+  "other_studies_full_rerun": false,
+  "data_guard_checks_passed": true,
+  "data_guard_check_count": 4,
+  "verification_scope": "PCE frozen-input recomputation and macro data guards; archived midterm full research not rerun"
+}

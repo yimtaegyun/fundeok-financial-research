@@ -1,0 +1,44 @@
+{
+  "project": "금융 리서치·데이터 분석 포트폴리오",
+  "specification_date_kst": "2026-10-22",
+  "research_projects": [
+    "Investment Framework",
+    "Global Macro Research",
+    "Sector & Factor Research",
+    "Fundamental Equity Research",
+    "Event-Driven Research",
+    "Portfolio Construction",
+    "Performance Attribution"
+  ],
+  "methodology": [
+    "투자 목표·운용 원칙",
+    "투자 아이디어 발굴",
+    "데이터 수집·전처리",
+    "거시·산업·기업 분석",
+    "모델링·예측",
+    "투자 논리·시나리오",
+    "모델 검증",
+    "포트폴리오·위험 관리",
+    "투자 실행",
+    "성과 평가·개선"
+  ],
+  "pilot": {
+    "start_date": "2015-01-01",
+    "as_of_date": "2026-10-22",
+    "model": {
+      "purpose": "execution_sanity_check_only",
+      "name": "AR(1) forecast of next observation's 10Y par-yield change",
+      "train_end": "2021-12-31",
+      "validation_end": "2023-12-31",
+      "test_start": "2024-01-01",
+      "hac_maxlags": 5,
+      "parameters_status": "AI_proposal_for_computational_validation"
+    }
+  },
+  "publication": {
+    "enabled": false
+  },
+  "schedule": {
+    "enabled": false
+  }
+}

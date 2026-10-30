@@ -1,0 +1,7 @@
+metric,period,unit,value,published_at,source_file
+core_pce_mom,2026-08,percent,0.2,2026-09-30,bea_pce_202608_first.html
+core_pce_mom,2026-08,percent,0.3,2026-10-29,bea_pce_202609.html
+real_pce_mom,2026-08,percent,0.6,2026-09-30,bea_pce_202608_first.html
+real_pce_mom,2026-08,percent,0.5,2026-10-29,bea_pce_202609.html
+saving_rate,2026-08,percent,4.1,2026-09-30,bea_pce_202608_first.html
+saving_rate,2026-08,percent,4.0,2026-10-29,pce_monthly.csv

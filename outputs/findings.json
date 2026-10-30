@@ -1,0 +1,26 @@
+{
+  "reference_period": "2026-09",
+  "release_at_kst": "2026-10-29T21:30:00+09:00",
+  "data_vintage": "retrieved 2026-10-29, revised historical series; not real-time historical vintage",
+  "headline_mom_pct": 0.4908404312709447,
+  "headline_yoy_pct": 3.648874225123633,
+  "core_mom_pct": 0.31650177409587865,
+  "core_yoy_pct": 3.1211596029620203,
+  "core_3m_annualized_pct": 2.9025218811834064,
+  "core_6m_annualized_pct": 2.92269972199517,
+  "real_pce_mom_pct": 0.01531664212075512,
+  "real_dpi_mom_pct": -0.27204309249466707,
+  "saving_rate_pct": 3.8,
+  "latest_common_yields": {
+    "date": "2026-10-27",
+    "nominal_2y": 4.7,
+    "nominal_10y": 4.99,
+    "real_10y": 2.64,
+    "breakeven_10y": 2.35
+  },
+  "discounting_20y_change_pct": -16.83412695859542,
+  "scope": "Descriptive release analysis, momentum transforms and illustrative discounting. No return prediction model, causal estimate, OOS investment result or backtest.",
+  "n_monthly_dates": 153,
+  "n_feature_rows": 705,
+  "n_daily_dates": 3084
+}

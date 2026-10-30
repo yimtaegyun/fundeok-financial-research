@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+outputs/research.sqlite
+studies/macro_foundations/artifacts/
+studies/midterm_events/data/raw/
+studies/midterm_events/data/research.sqlite
